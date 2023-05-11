@@ -4,15 +4,17 @@ This is a FiveM script that allows players to rob NPCs at gunpoint by aiming a g
 # Installation
 To use this script, follow the installation steps below:
 
-download the Future-RobNPC folder.
-Place the folder in your FiveM resource directory.
-Usage
+1. download the Future-RobNPC folder.
+2. Place the folder in your FiveM resource directory.
+3. add `ensure Future-RobNPC` to your `server.cfg`
+
+# Usage
 To rob an NPC, follow these steps:
 
-Aim your gun at an NPC and keep it pointed at them.
-After a few seconds, the NPC will raise their hands in surrender.
-A notification will appear indicating the amount of money you have robbed from the NPC.
-There is a cooldown period between robberies.
+1. Aim your gun at an NPC and keep it pointed at them.
+2. After a few seconds, the NPC will raise their hands in surrender.
+3. A notification will appear indicating the amount of money you have robbed from the NPC.
+4. There is a configurable cooldown period between robberies.
 
 # Configuration
 The script provides a configuration file (Config.lua) where you can adjust various settings:
@@ -25,5 +27,4 @@ Config.nomoneymsg: Set the notification message to display when the NPC has no m
 
 # Credits
 Author: Awesome Gaming
-License
-This script is released under the MIT License.
+License: This script is released under the MIT License.
