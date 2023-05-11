@@ -27,4 +27,5 @@ Config.nomoneymsg: Set the notification message to display when the NPC has no m
 
 # Credits
 Author: Awesome Gaming
+
 License: This script is released under the MIT License.
